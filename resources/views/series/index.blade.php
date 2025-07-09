@@ -2,7 +2,7 @@
     <a href="/series/create" class="btn btn-dark mb-3">Adicionar série</a>
     <ul class="list-group">
         @foreach($series as $serie)
-        <li class="list-group-item">{{ $serie }}</li>
+        <li class="list-group-item">{{ $serie->nome }}</li>
         @endforeach
     </ul>
 
